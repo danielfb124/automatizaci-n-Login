@@ -12,16 +12,16 @@
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <selenium.version>3.14.0</selenium.version> <!-- Actualizada la versión de Selenium -->
-        <cucumber.version>6.10.4</cucumber.version> <!-- Cucumber versión 6 -->
+        <selenium.version>3.14.0</selenium.version> 
+        <cucumber.version>6.10.4</cucumber.version> 
         <lombok.version>1.18.22</lombok.version>
-        <serenity.version>2.5.7</serenity.version> <!-- Versión alineada de Serenity -->
+        <serenity.version>2.5.7</serenity.version> 
         
         <thucydides.version>0.9.273</thucydides.version>
     </properties>
 
     <dependencies>
-        <!-- Selenium dependencies -->
+    
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -30,11 +30,11 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-api</artifactId>
-            <version>${selenium.version}</version> <!-- Utiliza la misma versión para evitar problemas -->
+            <version>${selenium.version}</version> 
             <scope>test</scope>
         </dependency>
 
-        <!-- Serenity dependencies -->
+      
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
@@ -46,7 +46,7 @@
             <version>${serenity.version}</version>
         </dependency>
 
-        <!-- Cucumber dependencies -->
+        
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
@@ -65,7 +65,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Lombok dependency -->
+        
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -73,7 +73,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Thucydides dependencies -->
+        
         <dependency>
             <groupId>net.thucydides</groupId>
             <artifactId>thucydides-core</artifactId>
@@ -92,13 +92,13 @@
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-cucumber6</artifactId>
-            <version>${serenity.version}</version> <!-- Asegúrate de usar la versión correcta -->
+            <version>${serenity.version}</version> 
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
-            <version>2.3.31</version> <!-- Versión más reciente de FreeMarker -->
+            <version>2.3.31</version> 
         </dependency>
         
     </dependencies>

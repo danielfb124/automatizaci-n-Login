@@ -1,0 +1,3 @@
+com\calidadpruebas\runners\CucumberTestSuite.class
+com\calidadpruebas\steps\LoginSteps.class
+com\calidadpruebas\pages\LoginActions.class
